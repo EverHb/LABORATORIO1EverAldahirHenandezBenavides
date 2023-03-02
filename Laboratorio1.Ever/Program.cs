@@ -16,7 +16,7 @@ string Edad = Console.ReadLine();
 int E = Convert.ToInt32(Edad);
 
 
-Console.WriteLine("Ingrese su sexo,M(Hombre),M(MUJER)");
+Console.WriteLine("Ingrese su sexo,M(Hombre),F(Mujer)");
 string Sexo = Console.ReadLine();
 
 
@@ -36,10 +36,10 @@ personas.Peso = P;
 personas.Altura = A;
 
 
-String Resultado = clsPersona.calcularIMC(personas);
+String Resultado = ClsPersona.calcularIMC(persona);
 Console.WriteLine(Resultado);
 
 
-String Result = clsPersona.EsMayorDeEdad(personas);
+String Result = ClsPersona.EsMayorDeEdad(persona);
 Console.WriteLine(Result);
 
